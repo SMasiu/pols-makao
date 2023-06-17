@@ -1,0 +1,526 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Application documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">Application documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content miscellaneous-typealiases">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Miscellaneous</li>
+  <li>Type aliases</li>
+</ol>
+
+<section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <ul class="index-list">
+                        <li>
+                            <a href="#CardOptions" title="src/app/game/cards/card.ts" ><b>CardOptions</b>&nbsp;&nbsp;&nbsp;(src/.../card.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#ConnectToGameCommandResponse" title="src/app/game/commands/connect-to-game.command.ts" ><b>ConnectToGameCommandResponse</b>&nbsp;&nbsp;&nbsp;(src/.../connect-to-game.command.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#CreateGameCommandResponse" title="src/app/game/commands/create-game.command.ts" ><b>CreateGameCommandResponse</b>&nbsp;&nbsp;&nbsp;(src/.../create-game.command.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#DisconnectFromGameCommandResponse" title="src/app/game/commands/disconnect-from-game.command.ts" ><b>DisconnectFromGameCommandResponse</b>&nbsp;&nbsp;&nbsp;(src/.../disconnect-from-game.command.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#DrawCardCommandResponse" title="src/app/game/commands/draw-card.command.ts" ><b>DrawCardCommandResponse</b>&nbsp;&nbsp;&nbsp;(src/.../draw-card.command.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#DrawCardOptions" title="src/app/game/cards/draw.card.ts" ><b>DrawCardOptions</b>&nbsp;&nbsp;&nbsp;(src/.../draw.card.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#GameId" title="src/app/game/store/game.ts" ><b>GameId</b>&nbsp;&nbsp;&nbsp;(src/.../game.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#GameOptions" title="src/app/game/store/game.ts" ><b>GameOptions</b>&nbsp;&nbsp;&nbsp;(src/.../game.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#GetGameQueryResponse" title="src/app/game/queries/get-game.query.ts" ><b>GetGameQueryResponse</b>&nbsp;&nbsp;&nbsp;(src/.../get-game.query.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#GetGamesQueryResponse" title="src/app/game/queries/get-games.query.ts" ><b>GetGamesQueryResponse</b>&nbsp;&nbsp;&nbsp;(src/.../get-games.query.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#InitializeConnectionCommandResponse" title="src/app/game/commands/initialize-connection.command.ts" ><b>InitializeConnectionCommandResponse</b>&nbsp;&nbsp;&nbsp;(src/.../initialize-connection.command.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#JoinToGameCommandResponse" title="src/app/game/commands/join-to-game.command.ts" ><b>JoinToGameCommandResponse</b>&nbsp;&nbsp;&nbsp;(src/.../join-to-game.command.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#JwtVerifyResponse" title="src/app/jwt/jwt.service.ts" ><b>JwtVerifyResponse</b>&nbsp;&nbsp;&nbsp;(src/.../jwt.service.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#LeaveFromGameCommandResponse" title="src/app/game/commands/leave-from-game.command.ts" ><b>LeaveFromGameCommandResponse</b>&nbsp;&nbsp;&nbsp;(src/.../leave-from-game.command.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#NextPlayerCommandResponse" title="src/app/game/commands/next-player.command.ts" ><b>NextPlayerCommandResponse</b>&nbsp;&nbsp;&nbsp;(src/.../next-player.command.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#PlaceCardCommandResponse" title="src/app/game/commands/place-card.command.ts" ><b>PlaceCardCommandResponse</b>&nbsp;&nbsp;&nbsp;(src/.../place-card.command.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#PlayerId" title="src/app/game/store/player.ts" ><b>PlayerId</b>&nbsp;&nbsp;&nbsp;(src/.../player.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#PlayerOptions" title="src/app/game/store/player.ts" ><b>PlayerOptions</b>&nbsp;&nbsp;&nbsp;(src/.../player.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#StartGameCommandResponse" title="src/app/game/commands/start-game.command.ts" ><b>StartGameCommandResponse</b>&nbsp;&nbsp;&nbsp;(src/.../start-game.command.ts)</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+    <h3>src/app/game/cards/card.ts</h3>
+    <section>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="CardOptions"></a>
+                    <span class="name "><b>CardOptions</b><a href="#CardOptions"><span class="icon ion-ios-link"></span></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <code>        <code><a href="../classes/Card.html" target="_self" >Pick&lt;Card | &quot;type&quot; | &quot;value&quot;&gt;</a></code>
+</code>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>    <h3>src/app/game/commands/connect-to-game.command.ts</h3>
+    <section>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ConnectToGameCommandResponse"></a>
+                    <span class="name "><b>ConnectToGameCommandResponse</b><a href="#ConnectToGameCommandResponse"><span class="icon ion-ios-link"></span></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <code>        <code><a href="../classes/Player.html" target="_self" >Player</a></code>
+</code>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>    <h3>src/app/game/commands/create-game.command.ts</h3>
+    <section>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="CreateGameCommandResponse"></a>
+                    <span class="name "><b>CreateGameCommandResponse</b><a href="#CreateGameCommandResponse"><span class="icon ion-ios-link"></span></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <code>    <code>literal type</code>
+</code>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>    <h3>src/app/game/commands/disconnect-from-game.command.ts</h3>
+    <section>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="DisconnectFromGameCommandResponse"></a>
+                    <span class="name "><b>DisconnectFromGameCommandResponse</b><a href="#DisconnectFromGameCommandResponse"><span class="icon ion-ios-link"></span></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <code>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+</code>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>    <h3>src/app/game/commands/draw-card.command.ts</h3>
+    <section>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="DrawCardCommandResponse"></a>
+                    <span class="name "><b>DrawCardCommandResponse</b><a href="#DrawCardCommandResponse"><span class="icon ion-ios-link"></span></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <code>        <code><a href="../classes/Game.html" target="_self" >Game</a></code>
+</code>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>    <h3>src/app/game/cards/draw.card.ts</h3>
+    <section>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="DrawCardOptions"></a>
+                    <span class="name "><b>DrawCardOptions</b><a href="#DrawCardOptions"><span class="icon ion-ios-link"></span></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <code>    <code>Pick&lt;DrawCard | &quot;draw&quot; | &quot;type&quot; | &quot;value&quot;&gt;</code>
+</code>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>    <h3>src/app/game/store/game.ts</h3>
+    <section>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="GameId"></a>
+                    <span class="name "><b>GameId</b><a href="#GameId"><span class="icon ion-ios-link"></span></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <code>    <code></code>
+</code>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="GameOptions"></a>
+                    <span class="name "><b>GameOptions</b><a href="#GameOptions"><span class="icon ion-ios-link"></span></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <code>        <code><a href="../classes/Game.html" target="_self" >Pick&lt;Game | &quot;id&quot; | &quot;name&quot; | &quot;players&quot;&gt;</a></code>
+</code>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>    <h3>src/app/game/queries/get-game.query.ts</h3>
+    <section>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="GetGameQueryResponse"></a>
+                    <span class="name "><b>GetGameQueryResponse</b><a href="#GetGameQueryResponse"><span class="icon ion-ios-link"></span></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <code>        <code><a href="../classes/Game.html" target="_self" >Game | null</a></code>
+</code>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>    <h3>src/app/game/queries/get-games.query.ts</h3>
+    <section>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="GetGamesQueryResponse"></a>
+                    <span class="name "><b>GetGamesQueryResponse</b><a href="#GetGamesQueryResponse"><span class="icon ion-ios-link"></span></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <code>        <code><a href="../classes/Game.html" target="_self" >Game[]</a></code>
+</code>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>    <h3>src/app/game/commands/initialize-connection.command.ts</h3>
+    <section>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="InitializeConnectionCommandResponse"></a>
+                    <span class="name "><b>InitializeConnectionCommandResponse</b><a href="#InitializeConnectionCommandResponse"><span class="icon ion-ios-link"></span></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <code>        <code><a href="../classes/Game.html" target="_self" >Game</a></code>
+</code>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>    <h3>src/app/game/commands/join-to-game.command.ts</h3>
+    <section>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="JoinToGameCommandResponse"></a>
+                    <span class="name "><b>JoinToGameCommandResponse</b><a href="#JoinToGameCommandResponse"><span class="icon ion-ios-link"></span></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <code>    <code>literal type</code>
+</code>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>    <h3>src/app/jwt/jwt.service.ts</h3>
+    <section>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="JwtVerifyResponse"></a>
+                    <span class="name "><b>JwtVerifyResponse</b><a href="#JwtVerifyResponse"><span class="icon ion-ios-link"></span></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <code>    <code>literal type | literal type</code>
+</code>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>    <h3>src/app/game/commands/leave-from-game.command.ts</h3>
+    <section>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="LeaveFromGameCommandResponse"></a>
+                    <span class="name "><b>LeaveFromGameCommandResponse</b><a href="#LeaveFromGameCommandResponse"><span class="icon ion-ios-link"></span></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <code>        <code><a href="../classes/Game.html" target="_self" >Game</a></code>
+</code>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>    <h3>src/app/game/commands/next-player.command.ts</h3>
+    <section>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="NextPlayerCommandResponse"></a>
+                    <span class="name "><b>NextPlayerCommandResponse</b><a href="#NextPlayerCommandResponse"><span class="icon ion-ios-link"></span></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <code>        <code><a href="../classes/Game.html" target="_self" >Game</a></code>
+</code>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>    <h3>src/app/game/commands/place-card.command.ts</h3>
+    <section>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="PlaceCardCommandResponse"></a>
+                    <span class="name "><b>PlaceCardCommandResponse</b><a href="#PlaceCardCommandResponse"><span class="icon ion-ios-link"></span></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <code>        <code><a href="../classes/Game.html" target="_self" >Game</a></code>
+</code>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>    <h3>src/app/game/store/player.ts</h3>
+    <section>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="PlayerId"></a>
+                    <span class="name "><b>PlayerId</b><a href="#PlayerId"><span class="icon ion-ios-link"></span></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <code>    <code></code>
+</code>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="PlayerOptions"></a>
+                    <span class="name "><b>PlayerOptions</b><a href="#PlayerOptions"><span class="icon ion-ios-link"></span></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <code>        <code><a href="../classes/Player.html" target="_self" >Pick&lt;Player | &quot;id&quot; | &quot;name&quot;&gt;</a></code>
+</code>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>    <h3>src/app/game/commands/start-game.command.ts</h3>
+    <section>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="StartGameCommandResponse"></a>
+                    <span class="name "><b>StartGameCommandResponse</b><a href="#StartGameCommandResponse"><span class="icon ion-ios-link"></span></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <code>        <code><a href="../classes/Game.html" target="_self" >Game</a></code>
+</code>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'miscellaneous-typealiases';
+            var COMPODOC_CURRENT_PAGE_URL = 'typealiases.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

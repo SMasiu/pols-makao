@@ -1,0 +1,1030 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Application documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">Application documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content miscellaneous-variables">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Miscellaneous</li>
+  <li>Variables</li>
+</ol>
+
+<section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <ul class="index-list">
+                        <li>
+                            <a href="#bootstrap" title="src/main.ts" ><b>bootstrap</b>&nbsp;&nbsp;&nbsp;(src/.../main.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#clubs" title="src/app/game/cards/deck.ts" ><b>clubs</b>&nbsp;&nbsp;&nbsp;(src/.../deck.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#createGameId" title="src/app/game/store/game.ts" ><b>createGameId</b>&nbsp;&nbsp;&nbsp;(src/.../game.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#createPlayerId" title="src/app/game/store/player.ts" ><b>createPlayerId</b>&nbsp;&nbsp;&nbsp;(src/.../player.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#CurrentGame" title="src/app/game/decorators/game.decorator.ts" ><b>CurrentGame</b>&nbsp;&nbsp;&nbsp;(src/.../game.decorator.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#CurrentPlayer" title="src/app/game/decorators/player.decorator.ts" ><b>CurrentPlayer</b>&nbsp;&nbsp;&nbsp;(src/.../player.decorator.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#deck" title="src/app/game/cards/deck.ts" ><b>deck</b>&nbsp;&nbsp;&nbsp;(src/.../deck.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#diamonds" title="src/app/game/cards/deck.ts" ><b>diamonds</b>&nbsp;&nbsp;&nbsp;(src/.../deck.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#environment" title="src/environments/environment.prod.ts" ><b>environment</b>&nbsp;&nbsp;&nbsp;(src/.../environment.prod.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#environment" title="src/environments/environment.ts" ><b>environment</b>&nbsp;&nbsp;&nbsp;(src/.../environment.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#events" title="src/app/game/game.module.ts" ><b>events</b>&nbsp;&nbsp;&nbsp;(src/.../game.module.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#factories" title="src/app/game/game.module.ts" ><b>factories</b>&nbsp;&nbsp;&nbsp;(src/.../game.module.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#GameIdType" title="src/app/game/store/game.ts" ><b>GameIdType</b>&nbsp;&nbsp;&nbsp;(src/.../game.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getRandomFromArray" title="src/app/utils/math.utils.ts" ><b>getRandomFromArray</b>&nbsp;&nbsp;&nbsp;(src/.../math.utils.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getRandomInt" title="src/app/utils/math.utils.ts" ><b>getRandomInt</b>&nbsp;&nbsp;&nbsp;(src/.../math.utils.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#handlers" title="src/app/game/game.module.ts" ><b>handlers</b>&nbsp;&nbsp;&nbsp;(src/.../game.module.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#hearts" title="src/app/game/cards/deck.ts" ><b>hearts</b>&nbsp;&nbsp;&nbsp;(src/.../deck.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#PlayerIdType" title="src/app/game/store/player.ts" ><b>PlayerIdType</b>&nbsp;&nbsp;&nbsp;(src/.../player.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#queries" title="src/app/game/game.module.ts" ><b>queries</b>&nbsp;&nbsp;&nbsp;(src/.../game.module.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#shuffledDeck" title="src/app/game/cards/deck.ts" ><b>shuffledDeck</b>&nbsp;&nbsp;&nbsp;(src/.../deck.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#spades" title="src/app/game/cards/deck.ts" ><b>spades</b>&nbsp;&nbsp;&nbsp;(src/.../deck.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#withCancel" title="src/app/utils/graphql.utils.ts" ><b>withCancel</b>&nbsp;&nbsp;&nbsp;(src/.../graphql.utils.ts)</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+    <h3>src/main.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="bootstrap"></a>
+                    <span class="name">
+                        <span ><b>bootstrap</b></span>
+                        <a href="#bootstrap"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>async () &#x3D;&gt; {
+  const app &#x3D; await NestFactory.create(AppModule);
+
+  app.use(cookieParser());
+  app.useGlobalPipes(
+    new ValidationPipe({
+      transform: true,
+      whitelist: true,
+    })
+  );
+
+  app.enableCors({
+    origin: process.env[&#x27;CLIENT_URL&#x27;],
+    credentials: true,
+  });
+
+  await app.listen(process.env[&#x27;API_PORT&#x27;]);
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/app/game/cards/deck.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="clubs"></a>
+                    <span class="name">
+                        <span ><b>clubs</b></span>
+                        <a href="#clubs"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../classes/Card.html" target="_self" >Card[]</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+  new DrawCard({
+    type: CardType.CLUBS,
+    value: CardValue.VAL_2,
+    draw: 2,
+  }),
+  new DrawCard({
+    type: CardType.CLUBS,
+    value: CardValue.VAL_3,
+    draw: 3,
+  }),
+  new BlockCard({
+    type: CardType.CLUBS,
+    value: CardValue.VAL_4,
+  }),
+  new BasicCard({
+    type: CardType.CLUBS,
+    value: CardValue.VAL_5,
+  }),
+  new BasicCard({
+    type: CardType.CLUBS,
+    value: CardValue.VAL_6,
+  }),
+  new BasicCard({
+    type: CardType.CLUBS,
+    value: CardValue.VAL_7,
+  }),
+  new BasicCard({
+    type: CardType.CLUBS,
+    value: CardValue.VAL_8,
+  }),
+  new BasicCard({
+    type: CardType.CLUBS,
+    value: CardValue.VAL_9,
+  }),
+  new BasicCard({
+    type: CardType.CLUBS,
+    value: CardValue.VAL_10,
+  }),
+  new BasicCard({
+    type: CardType.CLUBS,
+    value: CardValue.VAL_JACK,
+  }),
+  new QueenCard({
+    type: CardType.CLUBS,
+    value: CardValue.VAL_QUEEN,
+  }),
+  new BasicCard({
+    type: CardType.CLUBS,
+    value: CardValue.VAL_KING,
+  }),
+  new ColorCard({
+    type: CardType.CLUBS,
+    value: CardValue.VAL_ACE,
+  }),
+]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="deck"></a>
+                    <span class="name">
+                        <span ><b>deck</b></span>
+                        <a href="#deck"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../classes/Card.html" target="_self" >Card[]</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[...clubs, ...diamonds, ...hearts, ...spades]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="diamonds"></a>
+                    <span class="name">
+                        <span ><b>diamonds</b></span>
+                        <a href="#diamonds"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../classes/Card.html" target="_self" >Card[]</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+  new DrawCard({
+    type: CardType.DIAMONDS,
+    value: CardValue.VAL_2,
+    draw: 2,
+  }),
+  new DrawCard({
+    type: CardType.DIAMONDS,
+    value: CardValue.VAL_3,
+    draw: 3,
+  }),
+  new BlockCard({
+    type: CardType.DIAMONDS,
+    value: CardValue.VAL_4,
+  }),
+  new BasicCard({
+    type: CardType.DIAMONDS,
+    value: CardValue.VAL_5,
+  }),
+  new BasicCard({
+    type: CardType.DIAMONDS,
+    value: CardValue.VAL_6,
+  }),
+  new BasicCard({
+    type: CardType.DIAMONDS,
+    value: CardValue.VAL_7,
+  }),
+  new BasicCard({
+    type: CardType.DIAMONDS,
+    value: CardValue.VAL_8,
+  }),
+  new BasicCard({
+    type: CardType.DIAMONDS,
+    value: CardValue.VAL_9,
+  }),
+  new BasicCard({
+    type: CardType.DIAMONDS,
+    value: CardValue.VAL_10,
+  }),
+  new BasicCard({
+    type: CardType.DIAMONDS,
+    value: CardValue.VAL_JACK,
+  }),
+  new QueenCard({
+    type: CardType.DIAMONDS,
+    value: CardValue.VAL_QUEEN,
+  }),
+  new BasicCard({
+    type: CardType.DIAMONDS,
+    value: CardValue.VAL_KING,
+  }),
+  new ColorCard({
+    type: CardType.DIAMONDS,
+    value: CardValue.VAL_ACE,
+  }),
+]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="hearts"></a>
+                    <span class="name">
+                        <span ><b>hearts</b></span>
+                        <a href="#hearts"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../classes/Card.html" target="_self" >Card[]</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+  new DrawCard({
+    type: CardType.HEARTS,
+    value: CardValue.VAL_2,
+    draw: 2,
+  }),
+  new DrawCard({
+    type: CardType.HEARTS,
+    value: CardValue.VAL_3,
+    draw: 3,
+  }),
+  new BlockCard({
+    type: CardType.HEARTS,
+    value: CardValue.VAL_4,
+  }),
+  new BasicCard({
+    type: CardType.HEARTS,
+    value: CardValue.VAL_5,
+  }),
+  new BasicCard({
+    type: CardType.HEARTS,
+    value: CardValue.VAL_6,
+  }),
+  new BasicCard({
+    type: CardType.HEARTS,
+    value: CardValue.VAL_7,
+  }),
+  new BasicCard({
+    type: CardType.HEARTS,
+    value: CardValue.VAL_8,
+  }),
+  new BasicCard({
+    type: CardType.HEARTS,
+    value: CardValue.VAL_9,
+  }),
+  new BasicCard({
+    type: CardType.HEARTS,
+    value: CardValue.VAL_10,
+  }),
+  new BasicCard({
+    type: CardType.HEARTS,
+    value: CardValue.VAL_JACK,
+  }),
+  new QueenCard({
+    type: CardType.HEARTS,
+    value: CardValue.VAL_QUEEN,
+  }),
+  new DrawCard({
+    type: CardType.HEARTS,
+    value: CardValue.VAL_KING,
+    draw: 5,
+  }),
+  new ColorCard({
+    type: CardType.HEARTS,
+    value: CardValue.VAL_ACE,
+  }),
+]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="shuffledDeck"></a>
+                    <span class="name">
+                        <span ><b>shuffledDeck</b></span>
+                        <a href="#shuffledDeck"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(array: Card[]) &#x3D;&gt; {
+  let randomIndex: number;
+  let currentIndex &#x3D; array.length;
+
+  while (currentIndex !&#x3D; 0) {
+    randomIndex &#x3D; Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    [array[currentIndex], array[randomIndex]] &#x3D; [
+      array[randomIndex],
+      array[currentIndex],
+    ];
+  }
+
+  return array;
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="spades"></a>
+                    <span class="name">
+                        <span ><b>spades</b></span>
+                        <a href="#spades"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../classes/Card.html" target="_self" >Card[]</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+  new DrawCard({
+    type: CardType.SPADES,
+    value: CardValue.VAL_2,
+    draw: 2,
+  }),
+  new DrawCard({
+    type: CardType.SPADES,
+    value: CardValue.VAL_3,
+    draw: 3,
+  }),
+  new BlockCard({
+    type: CardType.SPADES,
+    value: CardValue.VAL_4,
+  }),
+  new BasicCard({
+    type: CardType.SPADES,
+    value: CardValue.VAL_5,
+  }),
+  new BasicCard({
+    type: CardType.SPADES,
+    value: CardValue.VAL_6,
+  }),
+  new BasicCard({
+    type: CardType.SPADES,
+    value: CardValue.VAL_7,
+  }),
+  new BasicCard({
+    type: CardType.SPADES,
+    value: CardValue.VAL_8,
+  }),
+  new BasicCard({
+    type: CardType.SPADES,
+    value: CardValue.VAL_9,
+  }),
+  new BasicCard({
+    type: CardType.SPADES,
+    value: CardValue.VAL_10,
+  }),
+  new BasicCard({
+    type: CardType.SPADES,
+    value: CardValue.VAL_JACK,
+  }),
+  new QueenCard({
+    type: CardType.SPADES,
+    value: CardValue.VAL_QUEEN,
+  }),
+  new DrawCard({
+    type: CardType.SPADES,
+    value: CardValue.VAL_KING,
+    draw: 5,
+  }),
+  new ColorCard({
+    type: CardType.SPADES,
+    value: CardValue.VAL_ACE,
+  }),
+]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/app/game/store/game.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="createGameId"></a>
+                    <span class="name">
+                        <span ><b>createGameId</b></span>
+                        <a href="#createGameId"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(): GameId &#x3D;&gt; uuid() as GameId</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="GameIdType"></a>
+                    <span class="name">
+                        <span ><b>GameIdType</b></span>
+                        <a href="#GameIdType"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>symbol</code>
+
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/app/game/store/player.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="createPlayerId"></a>
+                    <span class="name">
+                        <span ><b>createPlayerId</b></span>
+                        <a href="#createPlayerId"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(): PlayerId &#x3D;&gt; uuid() as PlayerId</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="PlayerIdType"></a>
+                    <span class="name">
+                        <span ><b>PlayerIdType</b></span>
+                        <a href="#PlayerIdType"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>symbol</code>
+
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/app/game/decorators/game.decorator.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="CurrentGame"></a>
+                    <span class="name">
+                        <span ><b>CurrentGame</b></span>
+                        <a href="#CurrentGame"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; Context(&#x27;game&#x27;)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/app/game/decorators/player.decorator.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="CurrentPlayer"></a>
+                    <span class="name">
+                        <span ><b>CurrentPlayer</b></span>
+                        <a href="#CurrentPlayer"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; Context(&#x27;player&#x27;)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/environments/environment.prod.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="environment"></a>
+                    <span class="name">
+                        <span ><b>environment</b></span>
+                        <a href="#environment"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+  production: true,
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/environments/environment.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="environment"></a>
+                    <span class="name">
+                        <span ><b>environment</b></span>
+                        <a href="#environment"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+  production: false,
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/app/game/game.module.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="events"></a>
+                    <span class="name">
+                        <span ><b>events</b></span>
+                        <a href="#events"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>Type[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[GameUpdatedHandler, GamesUpdatedHandler]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="factories"></a>
+                    <span class="name">
+                        <span ><b>factories</b></span>
+                        <a href="#factories"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[PlayerFactory, GameFactory]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="handlers"></a>
+                    <span class="name">
+                        <span ><b>handlers</b></span>
+                        <a href="#handlers"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>Type[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+  CreateGameHandler,
+  JoinToGameHandler,
+  StartGameHandler,
+  LeaveFromGameHandler,
+  ConnectToGameHandler,
+  DisconnectFromGameHandler,
+  InitializeConnectionHandler,
+  DrawCardHandler,
+  PlaceCardHandler,
+  NextPlayerHandler,
+]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="queries"></a>
+                    <span class="name">
+                        <span ><b>queries</b></span>
+                        <a href="#queries"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>Type[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[GetGamesHandler, GetGameHandler]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/app/utils/math.utils.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getRandomFromArray"></a>
+                    <span class="name">
+                        <span ><b>getRandomFromArray</b></span>
+                        <a href="#getRandomFromArray"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&lt;T&gt;(array: T[]) &#x3D;&gt; {
+  return array[getRandomInt(0, array.length)];
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getRandomInt"></a>
+                    <span class="name">
+                        <span ><b>getRandomInt</b></span>
+                        <a href="#getRandomInt"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(min: number, max: number): number &#x3D;&gt; {
+  min &#x3D; Math.ceil(min);
+  max &#x3D; Math.floor(max);
+
+  return Math.floor(Math.random() * (max - min) + min);
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/app/utils/graphql.utils.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="withCancel"></a>
+                    <span class="name">
+                        <span ><b>withCancel</b></span>
+                        <a href="#withCancel"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&lt;T&gt;(
+  asyncIterator: AsyncIterator&lt;T | undefined&gt;,
+  onCancel: () &#x3D;&gt; void
+): AsyncIterator&lt;T | undefined&gt; &#x3D;&gt; {
+  if (!asyncIterator.return) {
+    asyncIterator.return &#x3D; () &#x3D;&gt;
+      Promise.resolve({ value: undefined, done: true });
+  }
+
+  const savedReturn &#x3D; asyncIterator.return.bind(asyncIterator);
+  asyncIterator.return &#x3D; () &#x3D;&gt; {
+    onCancel();
+    return savedReturn();
+  };
+
+  return asyncIterator;
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'miscellaneous-variables';
+            var COMPODOC_CURRENT_PAGE_URL = 'variables.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

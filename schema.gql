@@ -1,0 +1,97 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type CardModel {
+  type: CardType!
+  value: CardValue!
+  canCounterDrawPenalty: Boolean!
+  canCounterBlockPenalty: Boolean!
+}
+
+enum CardType {
+  HEARTS
+  CLUBS
+  DIAMONDS
+  SPADES
+}
+
+enum CardValue {
+  VAL_2
+  VAL_3
+  VAL_4
+  VAL_5
+  VAL_6
+  VAL_7
+  VAL_8
+  VAL_9
+  VAL_10
+  VAL_JACK
+  VAL_QUEEN
+  VAL_KING
+  VAL_ACE
+}
+
+type PlayerModel {
+  id: String!
+  name: String!
+  connectionStatus: ConnectionStatus!
+  cards: [CardModel!]!
+  score: Int!
+  blockedRounds: Int!
+}
+
+enum ConnectionStatus {
+  DISCONNECTED
+  INITIALIZED
+  CONNECTED
+}
+
+type GameModel {
+  id: String!
+  name: String!
+  isStarted: Boolean!
+  players: [PlayerModel!]!
+  playerTurn: String
+  playerWon: String
+  currentCard: CardModel
+  penalty: Int!
+  penaltyType: PenaltyType
+}
+
+enum PenaltyType {
+  DRAW
+  BLOCK
+}
+
+type Query {
+  getGames: [GameModel!]!
+  getGame: GameModel
+}
+
+type Mutation {
+  createGame(game: CreateGameModel!, player: CreatePlayerModel!): GameModel!
+  joinToGame(gameId: String!, player: CreatePlayerModel!): GameModel!
+  startGame: GameModel!
+  connectToGame: PlayerModel!
+  drawCard: GameModel!
+  placeCard(card: PlaceCardModel!): GameModel!
+}
+
+input CreateGameModel {
+  name: String!
+}
+
+input CreatePlayerModel {
+  name: String!
+}
+
+input PlaceCardModel {
+  type: CardType!
+  value: CardValue!
+}
+
+type Subscription {
+  gameStateChanged(token: String!): GameModel!
+  onGamesChanges: [GameModel!]!
+}

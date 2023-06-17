@@ -1,0 +1,4 @@
+export enum GameEvent {
+  GAME_STATE_CHANGED = 'GAME_STATE_CHANGED',
+  GAMES_CHANGED = 'GAMES_CHANGED',
+}
